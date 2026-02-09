@@ -11,7 +11,7 @@ framework.
 
 ``` r
 # Ensure images go to your images folder
-knitr::opts_chunk$set(fig.path = "images/longevity/", warning = FALSE, message = FALSE)
+knitr::opts_chunk$set(fig.path = "images/longevity_new/", warning = FALSE, message = FALSE)
 data <- read.csv("data/longevity_data.csv", header = TRUE)
 head(data)
 ```
@@ -23,6 +23,22 @@ head(data)
     ## 4        Calliope hummingbird  Aves         3.0             7.0
     ## 5                  Brown kiwi  Aves      2380.0            35.0
     ## 6                Herring gull  Aves      1000.0            49.0
+
+#### Data Visualisations
+
+Analysing potential for log transforms. Intuition that log can be useful
+for features that have more multiplicative scaling, such as weight
+
+``` r
+par(mfrow = c(2, 2))
+plot(data$Body_mass_g, data$Maximum_age_yrs)
+plot(log(data$Body_mass_g), data$Maximum_age_yrs)
+plot(data$Body_mass_g, log(data$Maximum_age_yrs))
+plot(log(data$Body_mass_g), log(data$Maximum_age_yrs))
+```
+
+![](images/longevity_new/unnamed-chunk-1-1.png)<!-- --> log log
+transform appears to be the most effective.
 
 #### Model Fitting
 
@@ -134,7 +150,8 @@ cat("T-statistic:", t_stat, "\nP-value:", p_value)
     ## T-statistic: -4.456056 
     ## P-value: 1.351475e-05
 
-Due to the small P-value, reject the null hypothesis
+Due to the small P-value, reject the null hypothesis. Mass slope differs
+significantly from 0.25
 
 #### Model Diagnostics
 
@@ -145,8 +162,8 @@ par(mfrow = c(2, 2))
 plot(fit1.lm)
 ```
 
-![](images/longevity/unnamed-chunk-3-1.png)<!-- --> \* QQ - residuals
-plot is long tailed, and residuals show Heteroskedasticity
+![](images/longevity_new/unnamed-chunk-4-1.png)<!-- --> \* QQ -
+residuals plot is long tailed, and residuals show Heteroskedasticity
 
 ``` r
 # Checking residual variance across classes
@@ -155,4 +172,4 @@ plot(residuals(fit1.lm) ~ factor(data$Class),
      xlab = "Class", ylab = "Residuals")
 ```
 
-![](images/longevity/unnamed-chunk-4-1.png)<!-- -->
+![](images/longevity_new/unnamed-chunk-5-1.png)<!-- -->
