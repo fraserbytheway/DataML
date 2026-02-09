@@ -64,8 +64,8 @@ print('Done!')
 
 #### Data Visualisation
 
-Quick graph showing the generator function, random points and a smoothed
-output
+Quick graph showing the generator function, random points and a
+demonstration of two smoothed outputs
 
 ``` r
 S_high <- kernel_smoother(x, 1.5)
@@ -75,17 +75,16 @@ S_low <- kernel_smoother(x, 0.05)
 fhat_low <- S_low %*% y
 
 plot(x, y, col = "gray", pch = 19, main = "Comparison of Bandwidths (h)")
-lines(x, fhat_high, col = "red", lwd = 3)      # Smooth fit
-lines(x, fhat_low, col = "purple", lwd = 2)    # Wiggly fit
-lines(x, f, col = "blue", lwd = 2, lty = 2)    # True function
+lines(x, fhat_high, col = "red", lwd = 3)
+lines(x, fhat_low, col = "purple", lwd = 2)
+lines(x, f, col = "blue", lwd = 2, lty = 2)
 
 legend("topright",
        legend = c("Data", "h = 1.5 (High Bias)", "h = 0.05 (High Var)", "True f"),
        col = c("gray", "red", "purple", "blue"),
        pch = c(19, NA, NA, NA),
        lty = c(NA, 1, 1, 2),
-       lwd = 2,
-       cex = 0.8)
+       lwd = 2)
 ```
 
 ![](images/unnamed-chunk-2-1.png)<!-- -->

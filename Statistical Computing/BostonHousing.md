@@ -9,7 +9,6 @@ boston housing dataset
 #### Setup + Packages
 
 ``` r
-# Ensure images go to your images folder
 knitr::opts_chunk$set(fig.path = "images/boston/", warning = FALSE, message = FALSE)
 library(mgcv)
 library(car)
@@ -74,4 +73,5 @@ data.frame(
     ## 2          GAM 2.580609
     ## 3          PPR 2.482907
 
-Tradeoff between model explainability and performance.
+Tradeoff between model explainability and performance. From top to
+bottom decreasing explainability, however increasing performance.

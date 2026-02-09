@@ -10,7 +10,6 @@ framework.
 #### Setup
 
 ``` r
-# Ensure images go to your images folder
 knitr::opts_chunk$set(fig.path = "images/longevity_new/", warning = FALSE, message = FALSE)
 data <- read.csv("data/longevity_data.csv", header = TRUE)
 head(data)

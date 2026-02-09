@@ -9,7 +9,6 @@ Analysis of non - linear modelling using basis functions, as well as
 #### Setup
 
 ``` r
-# Ensure images go to your images folder
 knitr::opts_chunk$set(fig.path = "images/NLE/", warning = FALSE, message = FALSE)
 data <- read.csv("data/Malacca_strait_data.csv", header = TRUE)
 data <- data[order(data$day_of_year), ]
@@ -123,8 +122,8 @@ for (l in lambdas) {
 Optimising the PRESS (which simulates LOOCV).
 
 ``` r
-# Example - evaluating specific Lambda values near the optimum to reduce computation burden
-for (l in c(10600, 10700, 10800, 10900)) {
+# Example - evaluating range of lambda values to show the effect of changing lambda
+for (l in c(1, 10, 100, 1000, 5000, 10000)) {
   PRESS <- 0
   for(i in 1:length(Y)){
     Y.i <- Y[-i]
@@ -136,10 +135,12 @@ for (l in c(10600, 10700, 10800, 10900)) {
 }
 ```
 
-    ## Lambda: 10600 | PRESS: 507.4286 
-    ## Lambda: 10700 | PRESS: 507.4286 
-    ## Lambda: 10800 | PRESS: 507.4287 
-    ## Lambda: 10900 | PRESS: 507.4288
+    ## Lambda: 1 | PRESS: 528.4466 
+    ## Lambda: 10 | PRESS: 524.0983 
+    ## Lambda: 100 | PRESS: 515.2806 
+    ## Lambda: 1000 | PRESS: 509.2414 
+    ## Lambda: 5000 | PRESS: 507.6077 
+    ## Lambda: 10000 | PRESS: 507.4296
 
 #### Optimal Ridge Lambda
 
