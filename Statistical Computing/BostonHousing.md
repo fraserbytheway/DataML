@@ -32,7 +32,9 @@ plot(Boston.a2$nox, Boston.a2$medv, main="Price vs NOx (LOESS)")
 lines(loess.smooth(Boston.a2$nox, Boston.a2$medv), col = "red", lwd = 2)
 ```
 
-![](images/boston/unnamed-chunk-2-1.png)<!-- --> \#### Fitting Models
+![](images/boston/unnamed-chunk-2-1.png)<!-- -->
+
+#### Fitting Models
 
 ``` r
 # Fit models
@@ -46,8 +48,9 @@ crPlot(mod.lm, variable = "nox", main="LM Residual Plot")
 plot(mod.gam, select=4, main="GAM Smooth for NOx")
 ```
 
-![](images/boston/unnamed-chunk-3-1.png)<!-- --> \#### Model Performance
-Comparison
+![](images/boston/unnamed-chunk-3-1.png)<!-- -->
+
+#### Model Performance Comparison
 
 ``` r
 rmse.lm  <- sqrt(mean((Boston.valid$medv - predict(mod.lm, newdata = Boston.valid))^2))
