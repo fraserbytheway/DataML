@@ -1,13 +1,17 @@
 ---
 title: "Non Parametric Regression"
-output: html_notebook
+output:
+    github_document:
+        html_preview: false
 ---
 
 #### Setup + Packages
-```{r}
+```{r setup, message=FALSE, warning=FALSE}
+knitr::opts_chunk$set(fig.path = "images/")
 library(mgcv)
 library(car)
 ```
+
 #### Kernel Smoothing
 
 Define a custom function to calculate the kernel smoother matrix S
