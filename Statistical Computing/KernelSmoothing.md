@@ -71,8 +71,9 @@ legend("topright", legend = c("Data", "Smoother", "True f"),
        col = c("gray", "red", "blue"), pch = c(19, NA, NA), lty = c(NA, 1, 2))
 ```
 
-![](images/unnamed-chunk-2-1.png)<!-- --> \#### Bias - Variance Trade
-Off
+![](images/unnamed-chunk-2-1.png)<!-- -->
+
+#### Bias - Variance Trade Off
 
 Illustrate the bias - variance tradeoff
 
