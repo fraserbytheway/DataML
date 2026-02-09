@@ -63,12 +63,24 @@ Quick graph showing the generator function, random points and a smoothed
 output
 
 ``` r
-plot(x, y, col = "gray", pch = 19, main = "Kernel Smoother Fit (h = 1.5)")
-lines(x, fhat, col = "red", lwd = 3)
-lines(x, f, col = "blue", lwd = 2, lty = 2)
+S_high <- kernel_smoother(x, 1.5)
+fhat_high <- S_high %*% y
 
-legend("topright", legend = c("Data", "Smoother", "True f"),
-       col = c("gray", "red", "blue"), pch = c(19, NA, NA), lty = c(NA, 1, 2))
+S_low <- kernel_smoother(x, 0.05)
+fhat_low <- S_low %*% y
+
+plot(x, y, col = "gray", pch = 19, main = "Comparison of Bandwidths (h)")
+lines(x, fhat_high, col = "red", lwd = 3)      # Smooth fit
+lines(x, fhat_low, col = "purple", lwd = 2)    # Wiggly fit
+lines(x, f, col = "blue", lwd = 2, lty = 2)    # True function
+
+legend("topright",
+       legend = c("Data", "h = 1.5 (High Bias)", "h = 0.05 (High Var)", "True f"),
+       col = c("gray", "red", "purple", "blue"),
+       pch = c(19, NA, NA, NA),
+       lty = c(NA, 1, 1, 2),
+       lwd = 2,
+       cex = 0.8)
 ```
 
 ![](images/unnamed-chunk-2-1.png)<!-- -->
