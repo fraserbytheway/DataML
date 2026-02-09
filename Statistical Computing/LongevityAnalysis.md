@@ -37,8 +37,9 @@ plot(data$Body_mass_g, log(data$Maximum_age_yrs))
 plot(log(data$Body_mass_g), log(data$Maximum_age_yrs))
 ```
 
-![](images/longevity_new/unnamed-chunk-1-1.png)<!-- --> log log
-transform appears to be the most effective.
+![](images/longevity_new/unnamed-chunk-1-1.png)<!-- -->
+
+log log transform appears to be the most effective.
 
 #### Model Fitting
 
@@ -162,8 +163,10 @@ par(mfrow = c(2, 2))
 plot(fit1.lm)
 ```
 
-![](images/longevity_new/unnamed-chunk-4-1.png)<!-- --> \* QQ -
-residuals plot is long tailed, and residuals show Heteroskedasticity
+![](images/longevity_new/unnamed-chunk-4-1.png)<!-- -->
+
+- QQ - residuals plot is long tailed, and residuals show
+  Heteroskedasticity
 
 ``` r
 # Checking residual variance across classes
