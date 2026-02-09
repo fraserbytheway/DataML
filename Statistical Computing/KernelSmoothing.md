@@ -1,6 +1,11 @@
 Non Parametric Regression
 ================
 
+#### Introduction
+
+This analysis explores kernel smoothing, and the effect of the bandwidth
+on various statistical measures
+
 #### Setup + Packages
 
 ``` r

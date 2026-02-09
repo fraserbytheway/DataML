@@ -1,6 +1,11 @@
 Boston Housing Model Comparison
 ================
 
+#### Introduction
+
+Comparison of models performance and interpretability, utilising the
+boston housing dataset
+
 #### Setup + Packages
 
 ``` r
@@ -15,7 +20,7 @@ library(car)
 Split into train and test sets
 
 ``` r
-Boston.a2 <- read.csv("Boston_A2.csv", header=TRUE)
+Boston.a2 <- read.csv("data/Boston_A2.csv", header=TRUE)
 set.seed(3821)
 train <- sample(506, 400)
 Boston.train <- Boston.a2[train,]
