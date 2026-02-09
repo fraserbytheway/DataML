@@ -45,6 +45,14 @@
             </RMarkdownRenderProfile>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/Statistical Computing/NonlinearModelling.rmd">
+          <value>
+            <RMarkdownRenderProfile>
+              <option name="lastOutput" value="$PROJECT_DIR$/Statistical Computing/NonlinearModelling.md" />
+              <option name="outputDirectoryUrl" value="file://$PROJECT_DIR$/Statistical Computing" />
+            </RMarkdownRenderProfile>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
