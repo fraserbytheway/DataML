@@ -21,6 +21,14 @@
             </RMarkdownRenderProfile>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/Statistical Computing/BostonHousing.rmd">
+          <value>
+            <RMarkdownRenderProfile>
+              <option name="lastOutput" value="$PROJECT_DIR$/Statistical Computing/BostonHousing.md" />
+              <option name="outputDirectoryUrl" value="file://$PROJECT_DIR$/Statistical Computing" />
+            </RMarkdownRenderProfile>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/Statistical Computing/KernelSmoothing.rmd">
           <value>
             <RMarkdownRenderProfile>
