@@ -33,10 +33,12 @@ plot(data$day_of_year, data$sea_temperature,
      xlab = "Day of Year", ylab = "Temperature (°C)")
 ```
 
-![](images/NLE/unnamed-chunk-1-1.png)<!-- --> Model has non linearity.
-Potential solutions include a polynomial regression (though can suffer
-from erratic behaviour at boundaries), or non - linear modelling. Non
-Linear Modelling with basis functions will be explored here.
+![](images/NLE/unnamed-chunk-1-1.png)<!-- -->
+
+Model has non linearity. Potential solutions include a polynomial
+regression (though can suffer from erratic behaviour at boundaries), or
+non - linear modelling. Non Linear Modelling with basis functions will
+be explored here.
 
 #### Creating Basis Functions
 
@@ -63,8 +65,9 @@ plot(data$day_of_year,data$sea_temperature)
 lines(data$day_of_year,lm.2$fit,col="blue",lwd=5)
 ```
 
-![](images/NLE/unnamed-chunk-3-1.png)<!-- --> very noisy, model has
-likely overfitted.
+![](images/NLE/unnamed-chunk-3-1.png)<!-- -->
+
+very noisy, model has likely overfitted.
 
 #### Model Selection
 
