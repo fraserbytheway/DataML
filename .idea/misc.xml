@@ -45,11 +45,26 @@
             </RMarkdownRenderProfile>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/Statistical Computing/MetropolisHastings.rmd">
+          <value>
+            <RMarkdownRenderProfile>
+              <option name="lastOutput" value="$PROJECT_DIR$/Statistical Computing/MetropolisHastings.md" />
+              <option name="outputDirectoryUrl" value="file://$PROJECT_DIR$/Statistical Computing" />
+            </RMarkdownRenderProfile>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/Statistical Computing/NonlinearModelling.rmd">
           <value>
             <RMarkdownRenderProfile>
               <option name="lastOutput" value="$PROJECT_DIR$/Statistical Computing/NonlinearModelling.md" />
               <option name="outputDirectoryUrl" value="file://$PROJECT_DIR$/Statistical Computing" />
+            </RMarkdownRenderProfile>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/Statistical Computing/images/MetropolisHastings.rmd">
+          <value>
+            <RMarkdownRenderProfile>
+              <option name="outputDirectoryUrl" value="file://$PROJECT_DIR$/Statistical Computing/images" />
             </RMarkdownRenderProfile>
           </value>
         </entry>
