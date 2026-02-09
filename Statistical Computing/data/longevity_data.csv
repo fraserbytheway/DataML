@@ -1,0 +1,216 @@
+Species,Class,Body_mass_g,Maximum_age_yrs
+Red-shouldered hawk,Aves,658,22.4
+Black-chested buzzard-eagle,Aves,2860,42
+Common swift,Aves,44.9,21.1
+Calliope hummingbird,Aves,3,7
+Brown kiwi,Aves,2380,35
+Herring gull,Aves,1000,49
+Mew gull,Aves,431,33.7
+Ring-billed gull,Aves,439,31.8
+American woodcock,Aves,156.7,20.9
+Eurasian woodcock,Aves,430,15.5
+Eurasian hobby,Aves,208,14.9
+Common quail,Aves,97,14.6
+Blue grouse,Aves,1131,14
+Red junglefowl,Aves,2710,30
+Willow ptarmigan,Aves,567,9
+Grey partridge,Aves,501,5.2
+Marsh warbler,Aves,10.8,9.8
+Sedge warbler,Aves,11.5,11.8
+Icterine warbler,Aves,12.5,10.8
+Long-tailed tit,Aves,8.9,11.1
+Bushtit,Aves,5.5,9.1
+Eurasian skylark,Aves,31.7,10.1
+Horned lark,Aves,26,8
+Wood lark,Aves,25.5,6
+Bohemian waxwing,Aves,72.5,13.5
+Northern cardinal,Aves,41,28.5
+Eurasian jay,Aves,153,17.9
+Spotted nutcracker,Aves,147,19.9
+House finch,Aves,20.4,11.6
+Evening grosbeak,Aves,54.5,17
+Apapane,Aves,13.5,11
+Red crossbill,Aves,39.4,16.1
+White-winged crossbill,Aves,29.8,4
+House canary,Aves,13.3,24
+Pine siskin,Aves,14,11
+American goldfinch,Aves,13.6,13
+Barn swallow,Aves,18,16
+Bank swallow,Aves,13.6,10.1
+Baltimore oriole,Aves,37.5,14
+Meadow pipit,Aves,18.9,13.1
+Tree pipit,Aves,19.7,8.8
+White wagtail,Aves,18,13.7
+Yellow wagtail,Aves,14.7,8.8
+European robin,Aves,17.6,19.3
+European pied flycatcher,Aves,11.7,15
+Spotted flycatcher,Aves,14.4,11.8
+Black-and-white warbler,Aves,8.2,12.2
+Northern waterthrush,Aves,18.7,8.9
+Prothonotary warbler,Aves,12.8,8.1
+Ovenbird,Aves,19,11
+"Palm warbler, or Western palm warbler",Aves,9.8,6.6
+Pine warbler,Aves,12,10.2
+Song sparrow,Aves,19.1,11.3
+Vesper sparrow,Aves,21.5,7.9
+Eurasian tree sparrow,Aves,17.5,13.1
+"Common chiffchaff, or Eurasian chiffchaff",Aves,8.2,8
+Willow warbler,Aves,10.7,11.8
+European starling,Aves,75,22.9
+Garden warbler,Aves,24.8,24
+Lesser whitethroat,Aves,10.6,9
+Acadian flycatcher,Aves,12.3,12.1
+Great crested flycatcher,Aves,33.9,14.9
+Eastern phoebe,Aves,21.6,10.3
+Downy woodpecker,Aves,21.7,11.9
+Wandering albatross,Aves,8130,50
+Laysan albatross,Aves,2522,70
+Grey-headed albatross,Aves,3753,47.2
+Port Lincoln ringneck,Aves,137,17.9
+Galah,Aves,268.7,40
+Budgerigar,Aves,25.2,21
+Monk parakeet,Aves,80.4,22.1
+King penguin,Aves,13270,27
+Northern saw-whet owl,Aves,124,17.5
+Long-eared owl,Aves,252,27.8
+Snowy owl,Aves,2026,28
+Great horned owl,Aves,1450,29
+Eastern screech-owl,Aves,166,20.7
+Elf owl,Aves,45.9,14
+Spotted owl,Aves,571,25
+Ostrich,Aves,100000,50
+Anhinga,Aves,1040,16.4
+Double-crested cormorant,Aves,1330,22.5
+Waterbuck,Mammalia,100000,30
+Mountain goat,Mammalia,32000,20.8
+Bighorn sheep,Mammalia,67030.8,20.6
+Blue duiker,Mammalia,4200,15.9
+Steenbok,Mammalia,9600,9.3
+Eland,Mammalia,141404,26.1
+Dromedary,Mammalia,407000,28.4
+Llama,Mammalia,115000,28.9
+Western roe deer,Mammalia,21500,17.5
+Red deer,Mammalia,67000,31.5
+"Caribou, or Reindeer",Mammalia,85000,21.8
+Kit fox,Mammalia,1769,15.8
+Eastern spotted skunk,Mammalia,624,10.5
+Tayra,Mammalia,2950,22.3
+Sea otter,Mammalia,26832.8,27
+Wolverine,Mammalia,12700,19.5
+European otter,Mammalia,10000,18.2
+American marten,Mammalia,966.5,17.8
+European pine marten,Mammalia,920,18.2
+"European badger, or Old World badger",Mammalia,11050,18.6
+Ermine,Mammalia,125.5,12.5
+Long-tailed weasel,Mammalia,225,8.8
+American mink,Mammalia,660,11.4
+American badger,Mammalia,9000,25
+African palm civet,Mammalia,4270,21
+Harbor seal,Mammalia,27400,47.6
+Large-spotted genet,Mammalia,1699,21.3
+Asian palm civet,Mammalia,3282.6,24.5
+Greater sac-winged bat,Mammalia,7.8,6
+Jamaican fruit-eating bat,Mammalia,46.1,19.2
+California leaf-nosed bat,Mammalia,11.7,17
+Indian flying fox,Mammalia,562.2,44
+Variable flying fox,Mammalia,520.8,20.3
+Pallid bat,Mammalia,22,14.8
+Little brown bat,Mammalia,5.8,34
+Black myotis,Mammalia,3.7,7
+Cave myotis,Mammalia,11.9,11.3
+Fish-eating bat,Mammalia,25,10
+Yuma myotis,Mammalia,5,14
+Tasmanian devil,Mammalia,6126.8,13
+Fat-tailed dunnart,Mammalia,16,5
+Stripe-faced dunnart,Mammalia,20.6,4.9
+Numbat,Mammalia,438.2,11
+Central American woolly opossum,Mammalia,342.7,8.7
+Water opossum (yapok),Mammalia,940.5,3.1
+Southern opossum,Mammalia,1244.3,4.2
+Virginia opossum,Mammalia,2846.6,6.6
+Lutrine opossum,Mammalia,812,2.9
+Spectacled hare-wallaby,Mammalia,2660,8.8
+Tammar wallaby,Mammalia,4796,15.1
+Wallaroo,Mammalia,29647.9,22
+Red kangaroo,Mammalia,28500,25
+Quokka,Mammalia,2702.3,13.8
+Rock hyrax,Mammalia,2458,14.8
+Black-tailed jackrabbit,Mammalia,2300,11.8
+Mountain hare,Mammalia,3014.5,18
+European rabbit,Mammalia,2167.9,13
+"Rabbit-bandicoot, or Bilby",Mammalia,1245.5,9.6
+African wild ass,Mammalia,177500,47
+Northern night monkey,Mammalia,914.5,30.1
+Mantled howler monkey,Mammalia,4670,24
+Pygmy marmoset,Mammalia,110.7,18.6
+Blue monkey,Mammalia,8648.7,37.8
+Guereza,Mammalia,10623.6,35
+Patas monkey,Mammalia,3000,30
+Hamadryas baboon,Mammalia,12670.8,37.5
+Fat-tailed dwarf lemur,Mammalia,300,29
+South African galago,Mammalia,170,16.6
+Senegal galago,Mammalia,171.5,17.1
+Human,Mammalia,70000,122.5
+Brown lemur,Mammalia,2374.1,35.5
+Calabar angwantibo,Mammalia,206,13
+"Red slender loris, or Slender loris",Mammalia,284,21.6
+Slow loris,Mammalia,1128.6,25.8
+Potto,Mammalia,968.6,32.4
+Philippine tarsier,Mammalia,113,16
+Asiatic elephant,Mammalia,3672000,79.6
+Damaraland mole-rat,Mammalia,131.3,15.5
+African mole rat,Mammalia,78.9,11
+Cape mole-rat,Mammalia,193,11.2
+Naked mole-rat,Mammalia,35.3,31
+Guinea pig,Mammalia,639.1,12
+Common yellow-toothed cavy,Mammalia,322,3.5
+Field vole,Mammalia,25,4.8
+Common vole,Mammalia,21.9,4.8
+Florida mouse,Mammalia,30.8,7.4
+"Bunny, or Coney rat",Mammalia,78.7,5.5
+"Red-rumped agouti, or Agouti",Mammalia,2687,17.8
+Red acouchi,Mammalia,914,14.8
+Lesser Egyptian jerboa,Mammalia,75,7.3
+Greater Egyptian jerboa,Mammalia,139,5.5
+Meadow jumping mouse,Mammalia,26.1,5.6
+Fat dormouse,Mammalia,174.4,8.7
+Woodland dormouse,Mammalia,38.4,6.9
+Hazel dormouse,Mammalia,23.5,5.3
+San Diego pocket mouse,Mammalia,19.6,8.3
+Long-tailed pocket mouse,Mammalia,15.1,7.1
+Little pocket mouse,Mammalia,8.5,8.3
+Yellow-necked mouse,Mammalia,28.3,4.5
+Long-tailed field mouse,Mammalia,23.8,6.3
+Brush-tailed rabbit rat,Mammalia,213.2,4.5
+Cape short-eared gerbil,Mammalia,71.9,6.1
+Cape gerbil,Mammalia,106.5,5.7
+Lesser Egyptian gerbil,Mammalia,29.7,5.9
+Baluchistan gerbil,Mammalia,29.7,4.5
+Pale gerbil,Mammalia,56.3,5.5
+Greater Egyptian gerbil,Mammalia,108.5,8.2
+Golden-bellied water rat,Mammalia,900,7.3
+Mongolian jird,Mammalia,64.8,6.3
+House mouse,Mammalia,18,4
+Spinifex hopping mouse,Mammalia,32.3,6.4
+Indian gerbil,Mammalia,86.9,7
+White-tailed mouse,Mammalia,93.8,6.3
+Pouched mouse,Mammalia,68.1,4.5
+Degu,Mammalia,199.6,14
+Coruro,Mammalia,126.2,10.8
+"South African springhare, or Springhare",Mammalia,2300,20
+Black-tailed prairie dog,Mammalia,1112.3,15
+Eastern gray squirrel,Mammalia,440,23.6
+Least chipmunk,Mammalia,49.3,10
+Eastern chipmunk,Mammalia,89.6,9.5
+Greater red musk shrew,Mammalia,33.2,2.2
+Bicolored shrew,Mammalia,11.7,2.9
+White-toothed shrew,Mammalia,10.8,4
+Lesser shrew,Mammalia,6.9,2.8
+Least shrew,Mammalia,6.3,3.5
+Eurasian water shrew,Mammalia,16,3.1
+Eurasian shrew,Mammalia,8.4,3.2
+White-toothed pygmy shrew,Mammalia,2.4,3.2
+Asian house shrew,Mammalia,39.7,3.2
+Star-nosed mole,Mammalia,49,2.5
+Eastern mole,Mammalia,48,6.2
+Aardvark,Mammalia,48000,29.8
