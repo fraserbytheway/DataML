@@ -1,0 +1,12 @@
+# Ignore the source R Markdown file
+*.Rmd
+
+# Ignore the local HTML preview files
+*.html
+
+# Ignore PyCharm and R temporary folders
+.idea/
+.Rproj.user/
+.Rhistory
+.RData
+
