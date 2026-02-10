@@ -44,12 +44,13 @@ plot(df$x, df$y,
 
 #### Bayesian Analysis
 
-Use a adopt a Bayesian framework to estimate the parameters of the
-dome’s geometry ($\tilde{\alpha}, \beta, \sigma^2$)
+Using a Bayesian framework to estimate the parameters of the dome’s
+geometry ($\tilde{\alpha}, \beta, \sigma^2$)
 
-The problem is formulated as follows:Likelihood: We assume the errors in
-the log-linear model follow a normal distribution, implying a log-normal
-likelihood for the radius $y$.
+The problem is formulated as follows:
+
+Likelihood: We assume the errors in the log-linear model follow a normal
+distribution, implying a log-normal likelihood for the radius $y$.
 
 Priors: An improper uniform prior for the coefficients:
 $\pi(\tilde{\alpha}, \beta)$ proportional to 1. A Jeffreys prior for the
